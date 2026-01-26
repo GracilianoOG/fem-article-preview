@@ -11,6 +11,15 @@ $color-text-secondary: hsl(214, 17%, 51%);
 $color-text-muted: hsl(212, 23%, 69%);
 $color-bg-primary: hsl(210, 46%, 95%);
 
+html,
 body {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  align-items: center;
   background-color: $color-bg-primary;
+  display: flex;
+  justify-content: center;
 }
