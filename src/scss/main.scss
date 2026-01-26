@@ -34,10 +34,12 @@ body {
   }
 
   &__title {
+    color: $color-text-primary;
     font-size: 1rem;
   }
 
   &__description {
+    color: $color-text-secondary;
     font-size: 0.75rem;
   }
 
