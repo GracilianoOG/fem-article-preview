@@ -61,6 +61,7 @@ body {
 .author {
   align-items: center;
   display: flex;
+  position: relative;
 
   &::before {
     content: "";
@@ -91,6 +92,8 @@ body {
   border: none;
   background-color: $color-bg-primary;
   cursor: pointer;
+  position: absolute;
+  right: 0;
 
   &::before {
     background-image: url("../assets/images/icon-share.svg");
