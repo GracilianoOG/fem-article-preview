@@ -27,7 +27,9 @@ body {
 
 .card {
   background-color: #fff;
+  border-radius: 0.625rem;
   max-width: 20.625rem;
+  overflow: hidden;
 
   &__content {
     padding: 2.5rem 2rem 1.125rem 2rem;
