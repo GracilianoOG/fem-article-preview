@@ -1,10 +1,4 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import "./base/reset";
 
 $color-text-primary: hsl(217, 19%, 35%);
 $color-text-secondary: hsl(214, 17%, 51%);
