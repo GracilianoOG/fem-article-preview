@@ -12,13 +12,13 @@
   }
 
   &__title {
-    color: $color-text-primary;
+    color: colors.$color-text-primary;
     font-size: 1.0313rem;
     margin-bottom: 1rem;
   }
 
   &__description {
-    color: $color-text-secondary;
+    color: colors.$color-text-secondary;
     font-size: 0.8375rem;
     font-weight: 500;
     line-height: 1.5;

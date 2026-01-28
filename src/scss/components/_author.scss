@@ -19,12 +19,12 @@
   }
 
   &__name {
-    color: $color-text-primary;
+    color: colors.$color-text-primary;
     font-size: 0.8125rem;
   }
 
   &__date {
-    color: $color-text-muted;
+    color: colors.$color-text-muted;
     font-size: 0.75rem;
   }
 }

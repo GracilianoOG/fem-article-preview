@@ -2,14 +2,14 @@
 
 .share {
   align-items: center;
-  background-color: $color-text-primary;
+  background-color: colors.$color-text-primary;
   color: #fff;
   display: flex;
   padding: 1rem 2rem;
   width: 100%;
 
   &__text {
-    color: $color-text-muted;
+    color: colors.$color-text-muted;
     font-size: 0.75rem;
     letter-spacing: 0.375rem;
     text-transform: uppercase;
