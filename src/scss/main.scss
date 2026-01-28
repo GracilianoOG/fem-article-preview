@@ -93,8 +93,7 @@ body {
   border: none;
   background-color: $color-bg-primary;
   cursor: pointer;
-  position: absolute;
-  right: 0;
+  margin-left: auto;
 
   &::before {
     background-image: url("../assets/images/icon-share.svg");
