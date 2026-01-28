@@ -1,9 +1,5 @@
 @import "./base/reset";
-
-$color-text-primary: hsl(217, 19%, 35%);
-$color-text-secondary: hsl(214, 17%, 51%);
-$color-text-muted: hsl(212, 23%, 69%);
-$color-bg-primary: hsl(210, 46%, 95%);
+@import "./utils/colors";
 
 html,
 body {
