@@ -4,25 +4,7 @@
 
 @import "./components/card";
 @import "./components/author";
-
-.share-btn {
-  --btn-size: 2rem;
-  border-radius: 50%;
-  border: none;
-  background-color: $color-bg-primary;
-  cursor: pointer;
-  margin-left: auto;
-
-  &::before {
-    background-image: url("../assets/images/icon-share.svg");
-    background-repeat: no-repeat;
-    background-position: left 50% top 0.5625rem;
-    content: "";
-    display: block;
-    height: var(--btn-size);
-    width: var(--btn-size);
-  }
-}
+@import "./components/author-btn";
 
 .share {
   align-items: center;
