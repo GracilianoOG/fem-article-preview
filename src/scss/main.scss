@@ -1,9 +1,9 @@
-@import "./base/reset";
-@import "./base/base";
+@use "./base/reset";
+@use "./base/base";
 
-@import "./utils/colors";
+@use "./utils/colors";
 
-@import "./components/card";
-@import "./components/author";
-@import "./components/author-btn";
-@import "./components/share";
+@use "./components/card";
+@use "./components/author";
+@use "./components/author-btn";
+@use "./components/share";
