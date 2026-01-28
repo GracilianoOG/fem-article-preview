@@ -2,38 +2,7 @@
 @import "./base/base";
 @import "./utils/colors";
 
-.card {
-  background-color: #fff;
-  border-radius: 0.625rem;
-  max-width: 20.625rem;
-  overflow: hidden;
-
-  &__content {
-    padding: 2.5rem 2rem 1.125rem 2rem;
-    position: relative;
-  }
-
-  &__title {
-    color: $color-text-primary;
-    font-size: 1.0313rem;
-    margin-bottom: 1rem;
-  }
-
-  &__description {
-    color: $color-text-secondary;
-    font-size: 0.8375rem;
-    font-weight: 500;
-    line-height: 1.5;
-  }
-
-  &__banner {
-    width: 100%;
-    display: block;
-    height: 200px;
-    object-fit: cover;
-    object-position: 50% -17px;
-  }
-}
+@import "./components/card";
 
 .author {
   align-items: center;
