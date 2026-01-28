@@ -1,0 +1,15 @@
+@import "../utils/colors";
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  align-items: center;
+  background-color: $color-bg-primary;
+  display: flex;
+  font-family: "Manrope", sans-serif;
+  justify-content: center;
+}
