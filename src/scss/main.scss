@@ -3,35 +3,7 @@
 @import "./utils/colors";
 
 @import "./components/card";
-
-.author {
-  align-items: center;
-  display: flex;
-  position: relative;
-  margin-top: 2rem;
-
-  &::before {
-    content: "";
-    background-image: url("../assets/images/avatar-michelle.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 50%;
-    display: inline-block;
-    height: 2.5rem;
-    margin-right: 1rem;
-    width: 2.5rem;
-  }
-
-  &__name {
-    color: $color-text-primary;
-    font-size: 0.8125rem;
-  }
-
-  &__date {
-    color: $color-text-muted;
-    font-size: 0.75rem;
-  }
-}
+@import "./components/author";
 
 .share-btn {
   --btn-size: 2rem;
