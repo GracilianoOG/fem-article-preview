@@ -32,3 +32,25 @@
     object-position: 50% -17px;
   }
 }
+
+@media screen and (min-width: 48rem) {
+  .card {
+    display: flex;
+    max-width: 45.625rem;
+
+    &__banner {
+      object-position: 0;
+      height: 100%;
+      width: 17.8125rem;
+    }
+
+    &__content {
+      padding: 2rem 2.5rem 2rem;
+    }
+
+    &__title {
+      font-size: 1.2813rem;
+      margin-bottom: 0.75rem;
+    }
+  }
+}
