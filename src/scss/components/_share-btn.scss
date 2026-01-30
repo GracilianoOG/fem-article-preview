@@ -7,7 +7,16 @@
   background-color: colors.$color-bg-primary;
   cursor: pointer;
   margin-left: auto;
+  transition: background-color 0.2s ease;
   z-index: 1;
+
+  &:hover {
+    background-color: colors.$color-text-muted;
+
+    &:hover::before {
+      filter: brightness(3);
+    }
+  }
 
   &--open {
     background-color: colors.$color-text-secondary;
