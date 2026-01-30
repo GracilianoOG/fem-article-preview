@@ -30,3 +30,14 @@
     list-style: none;
   }
 }
+
+@media screen and (min-width: 48rem) {
+  .share {
+    bottom: 96px;
+    border-radius: 10px;
+    left: initial;
+    padding: 18px 36px;
+    right: -68px;
+    width: initial;
+  }
+}
