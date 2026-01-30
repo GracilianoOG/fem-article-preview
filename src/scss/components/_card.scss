@@ -1,10 +1,10 @@
 @use "../utils/colors";
+@use "../utils/variables" as vars;
 
 .card {
   background-color: #fff;
-  border-radius: 0.625rem;
+  border-radius: vars.$card-border-radius;
   max-width: 20.625rem;
-  overflow: hidden;
 
   &__content {
     padding: 2.5rem 2rem 1.125rem 2rem;
@@ -25,6 +25,8 @@
   }
 
   &__banner {
+    border-top-left-radius: vars.$card-border-radius;
+    border-top-right-radius: vars.$card-border-radius;
     width: 100%;
     display: block;
     height: 200px;
@@ -39,6 +41,8 @@
     max-width: 45.625rem;
 
     &__banner {
+      border-bottom-left-radius: vars.$card-border-radius;
+      border-top-right-radius: 0;
       object-position: 0;
       height: 100%;
       width: 17.8125rem;
