@@ -36,11 +36,11 @@
 
 @media screen and (min-width: 48rem) {
   .share {
-    bottom: 96px;
+    bottom: 6rem;
     border-radius: vars.$card-border-radius;
     left: initial;
-    padding: 18px 36px;
-    right: -27px;
+    padding: 1.125rem 2.25rem;
+    right: -1.6875rem;
     width: initial;
 
     &__text {
@@ -51,7 +51,7 @@
 
 @media screen and (min-width: 62rem) {
   .share {
-    right: -68px;
+    right: -4.25rem;
 
     &__text {
       display: initial;
