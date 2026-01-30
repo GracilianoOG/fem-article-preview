@@ -4,4 +4,5 @@ const sharePanel = document.querySelector(".share");
 button.addEventListener("click", () => {
   sharePanel.classList.toggle("hide");
   button.parentElement.classList.toggle("author--reduce");
+  button.classList.toggle("share-btn--open");
 });
