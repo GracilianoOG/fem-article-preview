@@ -4,6 +4,7 @@
 .card {
   animation: show-card 0.5s ease;
   background-color: #fff;
+  box-shadow: 0 1rem 3.75rem rgba(colors.$color-text-primary, 0.122);
   border-radius: vars.$card-border-radius;
   max-width: 20.625rem;
   margin: 1rem;
