@@ -20,7 +20,7 @@
   &::before {
     background-image: url("../../assets/images/icon-share.svg");
     background-repeat: no-repeat;
-    background-position: left 50% top 0.5625rem;
+    background-position: left 50% top calc(50% - 0.0625rem);
     content: "";
     display: block;
     height: var(--btn-size);
