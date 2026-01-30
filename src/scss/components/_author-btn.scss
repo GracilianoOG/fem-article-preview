@@ -9,6 +9,14 @@
   margin-left: auto;
   z-index: 1;
 
+  &--open {
+    background-color: colors.$color-text-secondary;
+
+    &::before {
+      filter: brightness(3);
+    }
+  }
+
   &::before {
     background-image: url("../../assets/images/icon-share.svg");
     background-repeat: no-repeat;
