@@ -52,6 +52,14 @@
       display: none;
     }
 
+    &__item {
+      transition: transform 0.2s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
     &::after {
       border-width: 0.75rem;
       border-style: solid;
