@@ -1,9 +1,12 @@
 @use "../utils/colors";
+@use "../utils/variables" as vars;
 
 .share {
   align-items: center;
   background-color: colors.$color-text-primary;
   bottom: 0;
+  border-bottom-left-radius: vars.$card-border-radius;
+  border-bottom-right-radius: vars.$card-border-radius;
   color: #fff;
   display: flex;
   left: 0;
