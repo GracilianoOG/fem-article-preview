@@ -9,3 +9,13 @@
     opacity: 1;
   }
 }
+
+@keyframes float {
+  from {
+    transform: translateY(var(--float-start-value, -10px));
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
