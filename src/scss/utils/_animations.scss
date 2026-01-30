@@ -1,0 +1,11 @@
+@keyframes show-card {
+  from {
+    transform: translateX(-2rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
