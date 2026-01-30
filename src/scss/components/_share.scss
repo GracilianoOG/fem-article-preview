@@ -40,7 +40,21 @@
     border-radius: vars.$card-border-radius;
     left: initial;
     padding: 18px 36px;
-    right: -68px;
+    right: -27px;
     width: initial;
+
+    &__text {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 62rem) {
+  .share {
+    right: -68px;
+
+    &__text {
+      display: initial;
+    }
   }
 }
