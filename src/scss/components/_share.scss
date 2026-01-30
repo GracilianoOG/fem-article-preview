@@ -44,6 +44,10 @@
     right: -1.6875rem;
     width: initial;
 
+    &:hover {
+      animation-play-state: paused;
+    }
+
     &__text {
       display: none;
     }
