@@ -4,6 +4,8 @@
 @use "./utils/colors";
 @use "./utils/animations";
 
+@use "./layout/footer";
+
 @use "./components/card";
 @use "./components/author";
 @use "./components/share-btn";

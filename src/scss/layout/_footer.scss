@@ -1,0 +1,10 @@
+@use "../utils/colors";
+
+.footer {
+  color: colors.$color-text-primary;
+  font-size: 0.8313rem;
+  font-weight: 500;
+  font-style: italic;
+  padding: 0.75rem;
+  text-align: center;
+}
