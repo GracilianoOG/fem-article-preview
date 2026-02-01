@@ -73,6 +73,7 @@ npm run dev
 - [How TO - CSS Shapes](https://www.w3schools.com/howto/howto_css_shapes.asp)
 - [Documentation (Sass)](https://sass-lang.com/documentation/)
 - [Sass Color Functions](https://www.w3schools.com/sass/sass_functions_color.asp)
+- [ARIA states and properties (attributes)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes)
 
 ## 🧑🏻‍💻 Author
 
