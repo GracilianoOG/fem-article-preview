@@ -11,5 +11,6 @@ body {
   background-color: colors.$color-bg-primary;
   display: flex;
   font-family: "Manrope", sans-serif;
+  flex-direction: column;
   justify-content: center;
 }
